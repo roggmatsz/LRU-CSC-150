@@ -1,0 +1,164 @@
+-----------------------------------------------------------------
+--| NAME: Rogger Matamoros
+--| DATE: 04/23/11
+--| ASSIGNMENT: Program 5
+--| ALGORITHM:
+
+-----------------------------------------------------------------
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Numerics.Discrete_Random; use Ada.Numerics.Discrete_Random;
+with Ada.Characters.Latin_1; use Ada.Characters.Latin_1;
+
+procedure Prog5 is
+	type CardType is (Clubs, Diamonds, Hearts, Spades);
+	subtype cardTypeRange is cardType range Spades..Diamonds;
+	WinCount: Integer;
+	LoseCount: Integer;
+	DrawCount: Integer;
+	Play: Boolean;
+	userScore: integer;
+	dealerScore: integer;
+	cardPoints: integer;
+	pointVal: integer;
+	score: integer;
+	id: Character;
+	option: Character;
+
+	function cardGen returns integer is
+		subtype RandRange is Positive range 1..52;
+		package Rand_52 is new Ada.Numerics.Discrete_Random (RandRange);
+		G: Rand_52.Generator;
+	begin
+		return rand_52.Reset(Gen => g);
+	end cardGen;
+	
+	procedure cardMaker(deck: in out deckA;) is
+		i: integer := 1;
+		type cardValR is (A, 2, 3, 4, 5, 6, 7, 8, 9, J, Q, K, X);
+		subtype cardValRange is cardValR range A..K;
+	begin
+		for card in CardType loop
+			deck(i) := "-------------------";
+			for j in cardValRange loop
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "| " & cardValRange'image(j) & "                |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|   " & CardType'image(card) & "   |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                  |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & "|                " & cardValRange'image(j) & " |";
+				deck(i) := deck(i) & CR & LF;
+				deck(i) := deck(i) & " ------------------";
+			end loop;
+			deck(i) := " ------------------";
+			i := i + 1;
+		end loop;
+	end cardMaker;
+
+	procedure aceHandler(pointVal: in out integer) is
+		response: integer;
+	begin
+		new_line;
+		put("Will the ace count as 1 or as 11?");
+		get(response);
+		pointVal := response;
+		new_line(2);
+	end aceHandler;
+	
+	procedure displayCard(deck: in out deckA; cardVal: in integer; pointVal: in out integer;) is
+		type cardA is array(1..52) of string;
+	begin
+		put(deck(card));
+		case cardVal is
+			when 1 =>
+				aceHandler;
+			when 2..13 =>
+				pointVal := cardVal;
+			when 15..26 =>
+				pointVal := cardVal - 13;
+			when 28..39 =>
+				pointVal := cardVal - 26;
+			when 40..52 =>
+				pointVal := cardVal - 39;
+			when others =>
+				null;
+		end case;
+	end displayCard;
+	
+	procedure scoreKeeper(id: Character; score: in out integer; pointVal: in integer;) is
+	begin
+		case id is
+			when 'u' =>
+				score := score + pointVal;
+				put("User count updated.");
+				new_line(2);
+			when 'd' =>
+				score := score + pointVal;
+				put("Dealer count updated.");
+				new_line(2);
+			when others =>
+				null;
+		end case;
+	end scoreKeeper;
+	
+	procedure winDetector(userScore: in integer; dealerScore: in integer; WinCount: in out integer;
+						  LoseCount: in out integer; DrawCount: in out integer;) is
+	begin
+		userScore := userScore - 21;
+		dealerScore := dealerScore - 21;
+		if (userScore = 0) or ((userScore < 0) and (userScore > dealerScore)) or (dealerScore > 0) then
+			new_line;
+			put("U S E R  W I N S ! ");
+			new_line(2);
+			put("User victories: ");
+			put(WinCount, width => 2);
+			new_line;
+		elsif (dealerScore = 0) or ((dealerScore < 0) and (dealerScore > userScore)) or userScore > 0) then
+			new_line;
+			put("D E A L E R  W I N S ! ");
+			new_line(2);
+			put("Dealer victories: ");
+			put(LoseCount, width => 3);
+			new_line;
+		elsif (userScore = dealerScore) then
+			new_line;
+			put("U S E R  T I E S  W I T H  D E A L E R");
+			new_line(2);
+			put("Ties: ");
+			put(DrawCount, width => 3);
+			new_line;
+		end if;
+	end winDetector;
+
+begin
+	put("_________________________________________");
+	new_line;
+	put("*        Twenty-One: The Game           *");
+	new_line;
+	put("-----------------------------------------");
+	new_line(3);
+	Put("Options:     (s): Start the game");
+	new_line;
+	put("             (i): Instructions");
+	new_line;
+	put("             (q): Quit game");
+	new_line;
+	get(Option);
+	case Option is
+		when 's' =>
+			
+	
+		
+				

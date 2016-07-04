@@ -1,0 +1,6 @@
+-----------------------------------------------
+-- * NAME: Rogger Matamoros / Chelsey Smithey
+-- * DATE: 03/30/11
+-- * ASSIGNMENT: Lab 13B part 2
+-----------------------------------------------
+with Ada.Text_IO; use Ada.Text_IO;

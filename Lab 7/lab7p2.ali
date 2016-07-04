@@ -1,0 +1,85 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.5
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U lab7p2%b		lab7p2.adb		4c67717d NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-flteio.ads		20100603061929 3407344a
+D a-inteio.ads		20100603061929 03bc737c
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-numeri.ads		20100603061938 1cf3e608
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-tiflio.ads		20100603062007 5d91823c
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D lab7p2.adb		20110215042256 174a62b1
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 17|7r6 7r23 8r6 8r24 9r6 9r29 10r6 10r31 15r9 18r30
+X 5 a-flteio.ads
+20K13*Float_Text_IO[12|48] 17|9w10 9r33
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[13|48] 17|10w10 10r35
+X 8 a-numeri.ads
+16K13*Numerics 32e17 17|8w10 8r28
+X 11 a-textio.ads
+52K13*Text_IO 475e16 17|7w10 7r27 15r13 18r34
+55P9*File_Type(373R9) 17|15r21
+56n23*In_File{56E9} 17|18r42
+77I12*Field{integer}
+96U14*Open 17|18r1
+97p7 File{55P9} 17|18r6
+98e7 Mode{56E9} 17|18r22
+99s7 Name{string} 17|19r17
+170U14*New_Line 17|44r17 50r9 51r9
+212U14*Put 17|43r17
+246U14*Put 17|40r17 42r17 52r9
+X 12 a-tiflio.ads
+54U14*Get 17|24r9[5|20] 26r17[5|20]
+70U14*Put 17|41r17[5|20] 53r9[5|20]
+73i7 Aft{11|77I12} 17|41r28[5|20] 53r22[5|20]
+74i7 Exp{11|77I12} 17|41r38[5|20] 53r32[5|20]
+X 17 lab7p2.adb
+12U11*lab7p2 12b11 55l5 55t11
+13f1 average{float} 20m1 46m17 46r36 49m9 49r20 53r13
+13f10 score{float} 22m9 25r15 26m29 28r21 28r42 30r24 30r44 32r24 32r44 34r24
+. 34r44 36r24 41r21 46r28
+13f17 floatCounter{float} 21m9 47m17 47r33 49r30
+13f31 sentinel{float} 24m21 25r24
+14e1 grade{character} 23m9 29m25 31m25 33m25 35m25 37m25 43r21
+15p1 tests1{11|55P9} 18m14 24r13 26r21
+

@@ -1,0 +1,101 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.5
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U part1%b		part1.adb		396c0188 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-flteio.ads		20100603061929 3407344a
+D a-inteio.ads		20100603061929 03bc737c
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-numeri.ads		20100603061938 1cf3e608
+D a-nuelfu.ads		20100603061937 b3ddb2e1
+D a-ngelfu.ads		20100603061935 46fb4d9b
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-tiflio.ads		20100603062007 5d91823c
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D part1.adb		20110215053325 cd6f46ad
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 19|1r6 1r23 2r6 2r29 3r6 3r45 4r6 4r31 27r8 119r31
+X 5 a-flteio.ads
+20K13*Float_Text_IO[14|48] 19|2w10 2r33
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|48] 19|4w10 4r35
+X 8 a-numeri.ads
+16K13*Numerics 32e17 19|3r10 3r49 119r35
+X 9 a-nuelfu.ads
+18K22*Elementary_Functions[10|19] 19|3w19 3r58 119r44
+X 10 a-ngelfu.ads
+22V13*Sqrt{float} 19|119r65[9|18]
+X 13 a-textio.ads
+52K13*Text_IO 475e16 19|1w10 1r27 27r12
+55P9*File_Type(373R9) 19|27r20
+77I12*Field{integer}
+170U14*New_Line 19|36r9 45r9 46r9 49r9 63r9 64r9 66r9 81r9 82r9 84r9 97r9
+. 98r9 110r9 111r9
+246U14*Put 19|35r9 40r17 47r9 51r17 56r17 59r17 65r9 70r17 74r17 76r17 83r9
+. 89r25 92r25 99r9 106r17 114r9 121r17
+X 14 a-tiflio.ads
+70U14*Put 19|41r17[5|20] 120r17[5|20]
+73i7 Aft{13|77I12} 19|41r28[5|20] 120r33[5|20]
+74i7 Exp{13|77I12} 19|41r38[5|20] 120r47[5|20]
+X 15 a-tiinio.ads
+58U14*Get 19|48r9[6|18] 52r17[6|18] 53r17[6|18]
+68U14*Put 19|57r17[6|18] 71r17[6|18] 75r17[6|18] 105r17[6|18]
+70i7 Width{13|77I12} 19|57r26[6|18] 105r29[6|18]
+X 19 part1.adb
+6U11*part1 6b11 126l5 126t10
+14e1 TaxCode{character} 37m9 38r12
+15f1 price{float} 31m9 39m17 39r26 39r35 41r21
+16f1 taxRate{float} 33m9 39r43
+17f1 squareRoot{float} 119m17 120r21
+17f13 floatSquare{float} 112m9 119r70 122m17 122r32
+19i1 Code{natural} 32m9 48m13 50r12
+20i1 X{natural} 52m21 55r24 96m9 101r20 104r27 104r31 107m17 107r22
+21i1 Y{natural} 53m21 55r28
+22i1 Sum{natural} 55m17 57r21
+24b1 LeapYear{boolean} 69m17
+25i1 Year{natural} 67m9 68r13 68r34 68r57 71r21 75r21
+26i1 square{integer} 104m17 105r21
+26i9 counter{integer} 113m9 116r20 123m17 123r28
+27p1 tests{13|55P9}
+28b1 honors{boolean} 85m9 87r13
+28b9 awards{boolean} 86m9 87r33
+28b17 goodStudent{boolean} 88m25 91m25
+

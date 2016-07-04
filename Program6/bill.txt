@@ -1,0 +1,9 @@
+         HEART-BREAK HOTEL - BILL
+----------------------------------------
+
+Billed to: Joe            
+           Apple          
+
+Length of Stay | Room Type | Room Fee | Amount Owed
+------------------------------------------------------------
+       10         Queen       $ 100       $  1000

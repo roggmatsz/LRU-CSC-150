@@ -1,0 +1,114 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.5
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U employeeskittles%b	employeeskittles.adb	9e7ee559 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-flteio.ads		20100603061929 3407344a
+D a-inteio.ads		20100603061929 03bc737c
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-tiflio.ads		20100603062007 5d91823c
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D employeeskittles.adb	20110208042534 d9a0109d
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 14|8r6 8r23 9r6 9r29 10r6 10r31 17r15 18r17 31r36
+X 5 a-flteio.ads
+20K13*Float_Text_IO[11|48] 14|9w10 9r33
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|48] 14|10w10 10r35
+X 10 a-textio.ads
+52K13*Text_IO 475e16 14|8w10 8r27 17r19 18r21 31r40
+55P9*File_Type(373R9) 14|17r27 18r29
+56n23*In_File{56E9} 14|31r48 74r21
+56n32*Out_File{56E9} 14|72r24
+77I12*Field{integer}
+90U14*Create 14|72r9
+96U14*Open 14|31r9
+97p7 File{55P9} 14|31r14
+98e7 Mode{56E9} 14|31r28
+99s7 Name{string} 14|32r17
+104U14*Reset 14|74r9
+105U14*Reset 14|73r9
+169U14*New_Line 14|82r17 87r17 89r17 91r17 94r17 100r17 102r17 104r17 106r17
+. 108r17 111r17
+170U14*New_Line 14|34r9 36r9 41r9 62r17 65r9 71r9
+187V13*End_Of_File{boolean} 14|43r20
+187p26 File{55P9} 14|43r32
+243U14*Get 14|46r17
+243p19 File{55P9} 14|46r21
+243s37 Item{string} 14|46r35
+245U14*Put 14|81r17 83r17 86r17 88r17 90r17 92r17 93r17 95r17 96r17 97r17
+. 99r17 101r17 103r17 105r17 107r17 109r17
+246U14*Put 14|33r9 35r9 37r9 38r9 39r9 40r9 55r17 56r17 58r17 60r17 64r9
+. 66r9 68r9
+246s19 Item{string} 14|33r13 35r13 37r13 38r13 39r13 40r13 66r13 68r13
+X 11 a-tiflio.ads
+54U14*Get 14|48r17[5|20] 49r17[5|20]
+55p7 File{10|55P9} 14|48r21[5|20] 49r21[5|20]
+56f7 Item{float} 14|48r35[5|20] 49r35[5|20]
+63U14*Put 14|98r17[5|20]
+67i7 Aft{10|77I12} 14|98r48[5|20]
+68i7 Exp{10|77I12} 14|98r58[5|20]
+70U14*Put 14|57r17[5|20] 59r17[5|20] 61r17[5|20] 67r9[5|20] 69r9[5|20]
+71f7 Item{float} 14|67r13[5|20] 69r13[5|20]
+73i7 Aft{10|77I12} 14|57r34[5|20] 59r30[5|20] 61r32[5|20] 67r31[5|20] 69r29[5|20]
+74i7 Exp{10|77I12} 14|57r44[5|20] 59r40[5|20] 61r42[5|20] 67r41[5|20] 69r39[5|20]
+X 12 a-tiinio.ads
+62U14*Put 14|84r17[6|18]
+65i7 Width{10|77I12} 14|84r42[6|18]
+X 14 employeeskittles.adb
+12U11*employeeSkittles 12b11 115l5 115t21
+13a9 name{string} 46m43 47r39 55r21
+14f9 hoursWorked{float} 48m43 50r40 51r40 57r21
+15f9 payRate{float} 49m43 50r30 59r21
+16f9 weeklyPay{float} 50m17 52r36 61r21
+17p9 data{10|55P9} 31m22 43r40 46r29 48r29 49r29 74m15
+18p9 checks{10|55P9} 72m16 73m15 81r21 82r26 83r21 84r21 86r21 87r26 88r21
+. 89r26 90r21 91r26 92r21 93r21 94r26 95r21 96r21 97r21 98r21 99r21 100r26
+. 101r21 102r26 103r21 104r26 105r21 106r26 107r21 108r26 109r21 111r26
+19f9 sumHours{float} 29m9 51m17 51r29 67r21
+20f9 sumPay{float} 28m9 52m17 52r27 53r38 69r21
+21i9 checkNumber{integer} 76m9 84r29 85m17 85r32
+22A14 pArray(float)<integer> 23r19
+23a9 payArray{22A14} 53m17 98r29
+24A14 nArray(string)<integer> 25r20
+25a9 nameArray{24A14} 47m17 96r29
+26i9 counter{integer} 30m9 47r27 53r26 54m17 54r27 75m9 78r20 96r39 98r38
+. 110m17 110r28
+

@@ -1,0 +1,127 @@
+V "GNAT Lib v2010"
+M P W=b
+P SS ZX
+R nnnnnnnvnnnnnnnvnnvnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnnnnnnnn
+
+U prog6%b		prog6.adb		4f30220a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W nt_console%s		nt_console.adb		nt_console.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061924 34786013
+D a-finali.ads		20100603061928 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-inteio.ads		20100603061928 03bc737c
+D a-ioexce.ads		20100603061930 2504b9d2
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062002 bfa07446
+D a-textio.ads		20100603062004 7065b2f2
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062246 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D nt_console.ads	19990608155022 36f89425
+D prog6.adb		20110508222144 0a1177a1
+D system.ads		20100603062800 0e6ea6c5
+D s-crtl.ads		20100603062404 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062414 c05c3205
+D s-finimp.ads		20100603062416 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062554 d2c357fb
+D s-soflin.ads		20100603062558 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062708 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 15|7r6 7r23 8r6 8r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|48] 15|8w10 8r35
+X 9 a-textio.ads
+52K13*Text_IO 475e16 15|7w10 7r27
+55P9*File_Type(373R9) 15|28r15
+56n23*In_File{56E9} 15|222r20
+77I12*Field{integer}
+96U14*Open 15|222r9
+170U14*New_Line 15|85r17 88r17 92r17 113r25 115r17 126r33 132r33 154r25 158r25
+. 162r25 172r17 174r17 178r17 182r17 186r25 196r33 204r41 206r41 209r41 211r41
+209U14*Get 15|141r25 163r25
+210U14*Get 15|122r25
+212U14*Put 15|32r17 38r17 41r17 43r17 44r17 50r25 73r41 83r25 90r25 94r25
+. 176r25
+243U14*Get 15|152r25 155r25 157r25
+246U14*Put 15|33r17 39r17 58r33 60r33 62r33 64r33 66r33 68r33 70r33 87r17
+. 111r33 120r17 127r33 130r33 153r25 156r25 159r25 173r17 179r17 185r25 190r41
+. 192r41 194r41 205r41 210r41
+302X4*Data_Error 15|125r30 208r38
+X 10 a-tiinio.ads
+53U14*Get 15|160r25[5|18]
+58U14*Get 15|200r33[5|18]
+68U14*Put 15|40r17[5|18] 42r17[5|18] 161r25[5|18] 188r33[5|18]
+70i7 Width{9|77I12} 15|40r24[5|18] 42r24[5|18] 188r51[5|18]
+X 14 nt_console.ads
+25K9*NT_Console 228e15 15|9w6 9r22
+214U14*Clear_Screen 15|221r9 247r9
+X 15 prog6.adb
+11U11*prog6 11b11 248l5 248t10
+12E17 actionType{character} 118r50
+13I17 hotelRooms{integer}
+14R14 roomRecord 21e19 22r43
+15b17 occupied{boolean} 143m42 147m42
+16a17 firstName{string} 152m55 153r49
+17a17 lastName{string} 155m55 156r49
+18a17 checkinDate{string} 157m55 159r49
+19i17 stayLength{natural} 160m55 161r49
+20a17 roomType{string}
+22A14 arrayType(14R14)<integer> 24r16 136r44 168r35
+23A14 availList_a(integer)<integer> 27r20 136r73
+24a9 hotel{22A14} 223m19 233r41
+25b9 legit{boolean} 228r35 229m48
+26e9 action{character} 225r27 229m40 231r22
+27a9 availList{23A14} 188r37 189r37 189r61 191r40 191r63 193r39 193r62 223m26
+28p9 data{9|55P9} 141r29 152r29 155r29 157r29 160r29 163r29 222m14
+30U19 startClean 30b19 34l13 34t23 220r9
+36U19 displaceCursor 36b19 36>35 36>47 45l13 45t27
+36i35 c{integer} 42r21
+36i47 r{integer} 40r21
+47U19 tab 47b19 47>24 52l13 52t16 59r33 86r17 96r33 98r33 102r33 104r33 106r33
+. 108r33
+47i24 n{integer} 49r29
+49i21 i{integer}
+54U19 renderOptions 54b19 54>34 78l13 78t26 100r25
+54i34 i{integer} 56r22
+72i37 j{integer}
+80U19 renderMainMenu 80b19 116l13 116t27 226r17
+82i21 i{integer}
+89i21 i{integer}
+93i21 i{integer} 95r29 95r41 97r32 100r39 101r29 101r42 101r55 103r32 105r32
+. 107r32 110r29
+118U19 commandHandler 118b19 118=35 118=62 134l13 134t27 229r25
+118e35 action{12E17} 122m29
+118b62 legit{boolean} 123m25 128m33 131m33
+136U19 fetchData 136b19 136=30 136=55 166l13 166t22 223r9
+136a30 hotel{22A14} 143m33 147m33 152m35 153r29 155m35 156r29 157m35 159r29
+. 160m35 161r29
+136a55 availList{23A14} 144m33 148m33 152r41 153r35 155r41 156r35 157r41
+. 159r35 160r41 161r35
+137e17 middleMan{character} 141m35 142r29 146r32 151r24 163m35
+138i17 j{natural} 152r51 153r45 155r51 156r45 157r51 159r45 160r51 161r45
+. 164m25 164r30
+140i21 i{integer} 143r39 144r43 144r49 147r39 148r43 148r49
+168U19 checkIn 168b19 168>28 217l13 217t20 233r33
+168a28 hotel{22A14}
+169i17 selection{natural} 200m37
+170b17 legit{boolean} 184r35 201m33 207m41 212m41
+175i21 i{integer}
+187i29 i{integer} 188r47 189r47 189r71 191r50 191r73 193r49 193r72
+

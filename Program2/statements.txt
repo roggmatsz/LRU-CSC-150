@@ -1,0 +1,54 @@
+
+Account Name: J. Prufrock
+Initial Balance as of 01/01/2011 was $500.00
+
+Transaction Type                Credits    Debits     New Balance
+=======================================================================
+Deposit By Mail                  100.25                 600.25
+Chash from an Automatic Teller              200.25      400.00
+Check                                       250.00      150.00
+In-Person Deposit                200.75                 350.75
+In-Person Withdrawal                        300.50       50.25
+Deposit by Automatic Teller      249.75                 300.00
+In-Person Deposit                 50.00                 350.00
+Chash from an Automatic Teller              100.00      250.00
+Deposit By Mail                  100.00                 350.00
+Check                                       200.00      150.00
+Deposit By Mail                  150.00                 300.00
+Deposit by Automatic Teller      100.00                 400.00
+Check                                       149.25      250.75
+Service Charge                               13.00      237.75
+====================================================================
+
+There were  7 deposits, totaling $ 950.75
+There were  6 withdrawals, totaling $1200.00
+
+The service charge is $13.00
+
+The final balance as of 01/31/11 is $237.75
+
+
+Account Name: P. Jrufrock
+Initial Balance as of 01/01/2011 was $6666.66
+
+Transaction Type                Credits    Debits     New Balance
+=======================================================================
+Chash from an Automatic Teller               50.00     6616.66
+Chash from an Automatic Teller               60.00     6556.66
+Chash from an Automatic Teller              150.00     6406.66
+Deposit By Mail                  350.45                6757.11
+Check                                       230.56     6526.55
+Deposit by Automatic Teller       56.76                6583.31
+In-Person Deposit                678.23                7261.54
+In-Person Withdrawal                        123.45     7138.09
+Deposit By Mail                  345.90                7483.99
+Service Charge                               22.00     7461.99
+====================================================================
+
+There were 11 deposits, totaling $2382.09
+There were 11 withdrawals, totaling $1814.01
+
+The service charge is $22.00
+
+The final balance as of 01/31/11 is $7461.99
+

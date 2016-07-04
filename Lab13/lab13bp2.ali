@@ -1,0 +1,56 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.7
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U lab13bp2%b		lab13bp2.adb		1d6fd0b6 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.exn_int%s	s-exnint.adb		s-exnint.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D lab13bp2.adb		20110331060303 6d0a6244
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-exnint.ads		20100603062409 817df12b
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 12|6r6 6r23
+X 8 a-textio.ads
+52K13*Text_IO 475e16 12|6w10 6r27
+X 12 lab13bp2.adb
+8U11*Lab13bp2 8b11 28l5 28t13
+9A9 Arrayz(integer)<integer> 10r13
+10a4 LolCatz{9A9} 14r13 16m10 18m10 21r13 22r11 22r24 23r27 24m10 24r28 25m10
+11i4 Cheezeburgurz{integer} 23m10 25r24
+14i8 I{integer} 15r11 15r19 16r18 16r32 16r41 17r14 18r18 18r24 18r33
+21i8 I{integer} 22r19 22r32 22r45 23r35 24r18 24r36 25r18
+

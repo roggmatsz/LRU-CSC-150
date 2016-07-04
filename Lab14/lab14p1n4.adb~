@@ -1,0 +1,21 @@
+----------------------------------------------------------
+--| NAME: Kelsey Willet / Ben Goldston / Rogger Matamoros
+--| DATE: 04/06/11
+--| ASSIGNMENT: Lab 14 Part 1 No. 4
+----------------------------------------------------------
+procedure Lab14p1n4 is
+	MaxEmp: constant Integer := 5;
+	subtype NumE is range 1..MaxEmp;
+	subtype real is range 1..1000000;
+	type Pay_Info_Arr is array (1..3) of Real;
+	type Arr_Arr is array(1..MaxEmp) of EmpRecType;
+	type EmpRecType is record
+		Name: String (1..15);
+		Ssn: String (1..15);
+		Pay_Info: Pay_Info_Arr;
+	end record;
+	type DataBaseType is record
+		NumEmp: NumE;
+		EmpRec: Arr_Arr;
+	end record;
+	dbase1: DataBaseType;

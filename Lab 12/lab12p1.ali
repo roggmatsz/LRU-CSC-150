@@ -1,0 +1,102 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.6
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnvnnnnnnnnnnvnnnvnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnn
+
+U lab12p1%b		lab12p1.adb		1dfb1131 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-calend.ads		20100603061913 19486c30
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-inteio.ads		20100603061929 03bc737c
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-numeri.ads		20100603061938 1cf3e608
+D a-nudira.ads		20100603061937 b0da9f04
+D a-nudira.adb		20100603061937 b55418eb
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D lab12p1.adb		20110319062659 def84fbb
+D system.ads		20100603062759 b0a7514b
+D s-conca3.ads		20100603062400 a208bec3
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-imguns.ads		20100603062435 f4154b29
+D s-parame.ads		20100603062544 6cdeed25
+D s-rannum.ads		20100603062549 467777e9
+D s-rannum.adb		20100603062549 8daa95f0
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-valuns.ads		20100603062658 e13f4d3e
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 18|7r6 7r23 8r6 8r31 9r6 15r32
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|48] 18|8w10 8r35
+X 8 a-numeri.ads
+16K13*Numerics 32e17 18|9r10 15r36
+X 9 a-nudira.ads
+47k22*Discrete_Random 76e33 18|9w19 15r45
+51R9 Generator 18|16r20[15]
+53V13 Random{integer} 18|23r28[15]
+53r21 Gen{51R9[18|15]} 18|23r35[15]
+56U14 Reset<28|94p14> 18|22r17[15]
+56r21 Gen{51R9[18|15]} 18|22r23[15]
+X 10 a-nudira.adb
+54V16 Random[28|77]{integer} 29|397b13[18|15]
+X 13 a-textio.ads
+52K13*Text_IO 475e16 18|7w10 7r27
+246U14*Put 18|54r33 86r33 118r33 150r33 158r9 160r17 162r25 164r25
+X 16 interfac.ads
+60M9*Unsigned_32
+63M9*Unsigned_64
+X 18 lab12p1.adb
+11U11*lab12p1 11b11 168l5 168t12
+13V10 cardTypeDetectorz{string} 13b10 155l5 155t22 160r21
+14I17 randRange{positive} 15r62
+15K17 rand_52[9|47] 16r12 22r9 23r20
+16r9 g{9|51R9[15]} 22r30 23r42
+17a9 cardType{string} 25m17 57m17 89m17 121m17 153r19
+18a9 cardVal{string} 28m33 30m33 32m33 34m33 36m33 38m33 40m33 42m33 44m33
+. 46m33 48m33 50m33 52m33 60m33 62m33 64m33 66m33 68m33 70m33 72m33 74m33
+. 76m33 78m33 80m33 82m33 84m33 92m33 94m33 96m33 98m33 100m33 102m33 104m33
+. 106m33 108m33 110m33 112m33 114m33 116m33 124m33 126m33 128m33 130m33 132m33
+. 134m33 136m33 138m33 140m33 142m33 144m33 146m33 148m33 153r36
+19i9 randNum{integer} 23m9 24r13 24r32 26r22 56r16 56r35 58r22 88r16 88r35
+. 90r22 120r16 120r35 122r22
+20a9 answer{string} 153m9 154r16
+159i13 i{integer} 161r21 163r24
+X 28 s-rannum.ads
+69V13*Random{16|60M9} 29|226i21
+70V13*Random{16|63M9} 29|226i21
+
